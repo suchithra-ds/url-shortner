@@ -1,0 +1,30 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "geoip-lite": "^1.4.10",
+    "google-auth-library": "^9.15.0",
+    "ip": "^2.0.1",
+    "moment": "^2.30.1",
+    "mongoose": "^8.9.2",
+    "nanoid": "^5.0.9",
+    "nodemon": "^3.1.9",
+    "redis": "^4.7.0",
+    "useragent": "^2.3.0"
+  }
+}
